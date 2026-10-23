@@ -1,0 +1,64 @@
+﻿芸豆提词器 1.2.1 · 便携版
+========================================
+
+一、运行
+  解压到任意目录（路径别太深、别放在只读位置），双击 TeacherPrompter.exe。
+  程序是绿色便携版：不写注册表、不装服务，配置保存在 exe 同级的
+  TeacherPrompter.ini（写不进去时自动改用 %APPDATA%\TeacherPrompter\settings.ini）。
+
+  系统要求：Windows 10 2004 及以上 / Windows 11，64 位。
+
+  首次运行若弹出「Windows 已保护你的电脑」（SmartScreen），点「更多信息 → 仍要运行」。
+  程序没有数字签名，部分安全软件可能询问，选择允许即可。
+
+二、三步上手
+  1. 「稿件」页 → 添加稿件：选 txt / md / srt / docx / pptx，
+     或「从剪贴板」粘贴，也可以直接把文件拖进窗口。
+  2. 「语音」页 → 选麦克风 → 点「开始跟读」。
+     第一次会提示下载语音模型（约 740 MB，见第四节），按提示下载即可，
+     装好后会自动继续开始跟读。
+  3. 浮层（芸豆提词）跟着你讲的位置自动滚动；浮层本身对录屏/共享屏幕是隐形的，
+     投影和会议观众都看不到。
+
+三、常用快捷键（任何程序在前台时都可用）
+  Ctrl+Alt+H      显示 / 隐藏提词浮层
+  Ctrl+Alt+M      显示 / 隐藏控制面板（隐藏后可从托盘图标找回）
+  Ctrl+Alt+V      开始 / 停止跟读
+  Ctrl+Alt+C      打开 / 关闭语音命令（「下一页 / 上一页 / 回到开头」）
+  Ctrl+Alt+L      锁定 / 调整浮层位置与大小
+  Ctrl+Alt+B      当前行高亮开关
+  Ctrl+Alt+Home   回到稿件开头
+  Ctrl+Alt+Q      退出程序
+
+四、语音模型：第一次用跟读时下载（安装包不含模型）
+  程序按需下载识别模型（约 740 MB），装好一次以后一直用。
+  · 入口：点「开始跟读」，或在「语音」页点状态行的「点这里下载」。
+  · 下载期间可以继续用自动滚动提词；状态行显示百分比、速度、剩余时间。
+  · 点状态行可暂停，下次点它从断点续传，已下载的部分不会重来。
+  · 按文件下载（tokens / bpe / joiner / decoder / encoder），某个文件坏了只重下那一个，
+    已经下好的文件会跳过，不用整包重来。
+  · 安装位置（两处都认；模型目录名不要改）：
+        <程序目录>\models\sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30\                   ← 想随身带 U 盘就用这里
+        %APPDATA%\TeacherPrompter\models\sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30\   ← 程序目录不可写时自动用它
+  · 下载慢 / 没有外网：
+      - 设置环境变量 TP_MODEL_MIRROR 指向自建镜像目录（程序在后面自动拼文件名，
+        例如 https://内网文件服务器/models）；
+      - 或从已装好的机器把 models 整个目录拷过来（最省事）；
+      - 或手动打开 https://hf-mirror.com/csukuangfj/sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30
+        逐个下载 encoder.int8.onnx、decoder.onnx、joiner.int8.onnx、tokens.txt、bpe.model，
+        放进 models\sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30\ 下。
+  · 暂时不装模型也能上课：Ctrl+Alt+P 开自动滚动；
+    或「语音」页把引擎切到「系统识别」兜底（需装系统中文语音包，准确率较低）。
+
+五、常见问题
+  · 跟读不启动、电平条不动：检查「语音」页里选的麦克风是不是会议软件用的那只；
+    程序用 WASAPI 采集，不跟随系统「默认通信设备」。
+  · 浮层被 PPT 全屏放映盖住：改用窗口化放映 / 演示者视图，或把提词器放副屏。
+  · 截屏或录屏里看得到浮层：Win10 2004 以下不支持防录屏，会自动降级为普通置顶。
+  · 需要临时截取浮层做排查：设置环境变量 TP_CAPTURE_ALLOWED=1 再启动。
+
+六、卸载
+  直接删除整个目录即可。若配置写到了别处，删掉
+  %APPDATA%\TeacherPrompter 整个文件夹。
+
+更详细的功能说明见同目录 README.md。

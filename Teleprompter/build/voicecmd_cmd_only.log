@@ -1,0 +1,50 @@
+FOLLOW	t=166328812	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166329046	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166329296	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166329546	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166329796	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166330046	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166330296	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166330546	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166330796	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166331046	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166331296	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166331546	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166331796	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166332046	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166332296	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166332546	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+EVT	t=166332656	下一页
+CMD	向下翻一页	y=378.0	下一页
+FOLLOW	t=166332796	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166333046	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166333296	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166333546	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166333796	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166334046	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166334296	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166334546	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166334796	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166335046	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+EVT	t=166335171	下一页
+CMD	向下翻一页	y=756.0	下一页
+FOLLOW	t=166335296	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166335546	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166335796	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166336046	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166336296	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166336546	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166336796	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166337046	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166337296	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+FOLLOW	t=166337546	y=756.0	v=0.0	paused=0	tg=756	an=159	fa=0	anim=0	auto=0
+EVT	t=166337687	上一页
+CMD	向上翻一页	y=378.0	上一页
+FOLLOW	t=166337796	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166338046	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166338296	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166338546	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166338796	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166339046	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166339296	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166339546	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0

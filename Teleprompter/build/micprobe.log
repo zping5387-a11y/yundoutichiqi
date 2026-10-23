@@ -1,0 +1,23 @@
+=== 录音设备 ===
+  [0] MIDI (DroidCam Audio)  (已禁用)
+  [1] 麦克风 (Realtek(R) Audio)  (已拔出)
+  [2] 立体声混音 (Realtek(R) Audio)  (已禁用)
+  [3] 麦克风 (DroidCam Audio)  (已启用)
+  [4] 麦克风 (USB Microphone)  (已启用)  <= 默认(通信)
+  [5] 麦克风 (OMEN Cam & Voice)  (已启用)
+  [6] 麦克风 (HECATE G1500 BAR)  (已启用)  <= 默认(播放/录音)
+
+=== WASAPI 共享模式采集（3 秒）===
+  Activate IAudioClient: 0x00000000
+  Initialize 16k/mono/16bit: 0x00000000
+  t=1.0s 峰值=    1 (很安静)
+  t=2.1s 峰值=    1 (很安静)
+  采集帧数=46849  全程峰值=1 / 32767  -> 共享受限或麦克风被静音/占用
+
+=== SAPI in-proc 识别器（3 秒）===
+  CoCreateInstance: 0x00000000
+  SetInput(nullptr=默认麦克风): 0x00000000
+  3 秒内：SOUND_START=0  RECOGNITION=0  HYPOTHESIS=0
+  -> SAPI 收不到任何声音（这就是『完全没反应』）
+
+[完成，日志见 build/micprobe.log]

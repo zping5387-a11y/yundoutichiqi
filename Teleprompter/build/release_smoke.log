@@ -1,0 +1,10 @@
+发布目录: C:\Users\54881\WorkBuddy\2026-10-20-19-29-44\Teleprompter\output\YunDouTeleprompter-1.1.0-win64
+自带模型: 否（按需下载）
+运行副本: C:\Users\54881\AppData\Local\Temp\ydtp_release_gd6k6q_s\deep\app
+PASS 1/4 主窗口已出现: 芸豆提词器 · 教学模式
+PASS 2/4 语音页状态行: 离线语音模型未安装 · 点这里下载（约 570 MB，需联网）
+PASS 3/4 点跟读时弹出了模型下载引导（已取消，未真的下载）
+PASS 4/4 状态行: 离线语音模型未安装 · 点这里下载（约 570 MB，需联网）
+已清理运行期文件: TeacherPrompter.ini
+发布目录文件数: 7
+RESULT: PASS

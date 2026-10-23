@@ -1,0 +1,33 @@
+=== e2e_sherpa ===
+开始跟读按钮: True | 状态框: True
+模型就绪耗时: 39.5s
+状态: 跟读中 · 静音暂停（继续念就会自动往下滚）
+浮层截图: C:\Users\54881\WorkBuddy\2026-10-20-19-29-44\Teleprompter\build\shot_sherpa.png (487, 1028)
+状态: 跟读中 · 静音暂停（继续念就会自动往下滚）
+进程已退出: True
+识别文本样本数: 424
+最后一条识别: FOLLOW	t=233317812	y=0.0	v=0.0	paused=1	tg=0	an=126	fa=1	anim=0	auto=0
+匹配次数: 73 | 起点: 5 | 峰值: 117 | 末值: 117 / 117
+回退次数: 0 | 最大回退: 0
+=== model_install_e2e ===
+临时目录: C:\Users\54881\AppData\Local\Temp\ydtp_model_mgb4punk
+下载地址: http://127.0.0.1:57824/model.tar.bz2 | 包大小: 9.04 MB
+初始状态: 离线语音模型未安装 · 点这里下载（约 570 MB，需联网）
+用例1 结束状态: 语音模型已安装 · 可以开始跟读了（3.1s）
+  模型落盘: True | 服务端 Range: ['']
+用例2 结束状态: 语音模型已安装 · 可以开始跟读了（2.2s）
+  服务端 Range: ['bytes=3160351-'] | 模型落盘: True
+用例3 结束状态: 语音模型已安装 · 可以开始跟读了 | .part 保留: False
+FAIL 用例3
+RESULT: FAIL
+=== release_smoke ===
+发布目录: C:\Users\54881\WorkBuddy\2026-10-20-19-29-44\Teleprompter\output\YunDouTeleprompter-1.1.0-win64
+自带模型: 否（按需下载）
+运行副本: C:\Users\54881\AppData\Local\Temp\ydtp_release_cnqn5264\deep\app
+PASS 1/4 主窗口已出现: 芸豆提词器 · 教学模式
+PASS 2/4 语音页状态行: 离线语音模型未安装 · 点这里下载（约 570 MB，需联网）
+PASS 3/4 点跟读时弹出了模型下载引导（已取消，未真的下载）
+PASS 4/4 状态行: 离线语音模型未安装 · 点这里下载（约 570 MB，需联网）
+已清理运行期文件: TeacherPrompter.ini
+发布目录文件数: 7
+RESULT: PASS

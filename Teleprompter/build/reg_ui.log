@@ -1,0 +1,12 @@
+===== toolbar_e2e =====
+RESULT: PASS
+===== hover_e2e =====
+RESULT: PASS
+===== recent_list_e2e =====
+FAIL: 「去提词」没有载入 b.txt
+FAIL: 「打开文件夹」没有打开资源管理器窗口
+RESULT: FAIL
+===== scroll_e2e =====
+RESULT: PASS
+===== panel_pos_e2e =====
+RESULT: PASS

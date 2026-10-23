@@ -1,0 +1,12 @@
+﻿芸豆提词器 1.2.1 · win64 便携版
+语音模型: 不内置，首次使用时下载（约 740 MB）
+构建时间（exe）: 2026-10-22 23:36:38
+打包时间: 2026-10-22 23:36:40
+
+文件清单：
+        3.0 MB  ef316bfd1c27e55e  TeacherPrompter.exe
+        3.1 MB  86c7807d12982aa3  sherpa-onnx-c-api.dll
+       17.0 MB  7f66f939a881baf4  onnxruntime.dll
+      102.5 KB  551d0e1fe4c227d8  onnxruntime_providers_shared.dll
+       17.5 KB  a8b55f6e9596a660  README.md
+       23.2 MB  合计（未压缩）

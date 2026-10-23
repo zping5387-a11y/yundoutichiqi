@@ -1,0 +1,38 @@
+临时目录: C:\Users\54881\AppData\Local\Temp\ydtp_model_2oay_yza
+下载地址: http://127.0.0.1:50952/model.tar.bz2 | 包大小: 9.04 MB
+初始状态: 离线语音模型未安装 · 点这里下载（约 570 MB，需联网）
+用例1 结束状态: （90.2s）
+  模型落盘: False | 服务端 Range: []
+FAIL 用例1
+用例2 结束状态: （90.3s）
+  服务端 Range: [] | 模型落盘: False
+FAIL 用例2（未走续传）
+  服务端 Range: ['bytes=3160503-'] | 模型落盘: True
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52779)
+Traceback (most recent call last):
+  File "C:\Users\54881\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54881\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54881\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\54881\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\54881\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\54881\WorkBuddy\2026-10-20-19-29-44\Teleprompter\tools\model_install_e2e.py", line 98, in do_GET
+    self.wfile.write(body[i:i + step])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54881\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------
+用例3 结束状态: 下载已暂停 · 点这里继续（已下载的部分不会丢） | .part 保留: True
+RESULT: PASS

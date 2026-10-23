@@ -1,0 +1,50 @@
+FOLLOW	t=166352218	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166352453	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166352703	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166352953	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166353203	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166353453	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166353703	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166353953	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166354203	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166354453	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166354703	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166354953	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166355203	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166355453	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166355703	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+FOLLOW	t=166355953	y=0.0	v=0.0	paused=0	tg=0	an=0	fa=0	anim=0	auto=0
+EVT	t=166356062	下一页
+CMD	向下翻一页	y=378.0	下一页
+FOLLOW	t=166356203	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166356453	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166356703	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166356953	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166357203	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166357453	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166357703	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166357953	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166358203	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+FOLLOW	t=166358453	y=378.0	v=0.0	paused=0	tg=378	an=86	fa=0	anim=0	auto=0
+EVT	t=166358578	同学们上课上一节课我们讨论了物体在液体中的沉浮条件
+18:34:07.932	MATCH	pos=25/461	score=1.00
+同学们上课上一节课我们讨论了物体在液体中的沉浮条件
+18:34:07.932	MATCH	pos=25/461	score=1.00
+同学们上课上一节课我们讨论了物体在液体中的沉浮条件
+FOLLOW	t=166358703	y=374.9	v=-65.1	paused=0	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166358953	y=294.9	v=-409.5	paused=0	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166359203	y=199.1	v=-409.5	paused=0	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166359453	y=102.9	v=-409.5	paused=0	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166359703	y=29.2	v=-143.8	paused=0	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166359953	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166360203	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166360453	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166360703	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166360953	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166361203	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166361453	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166361703	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166361953	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166362203	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166362453	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0
+FOLLOW	t=166362703	y=21.3	v=0.0	paused=1	tg=0	an=29	fa=1	anim=0	auto=0

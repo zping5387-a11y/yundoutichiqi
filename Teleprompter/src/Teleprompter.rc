@@ -1,0 +1,18 @@
+// Teleprompter.rc : 资源定义（对话框模板仅作容器，控件全部由代码创建）
+#include "Resource.h"
+#include "afxres.h"
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(65001)
+
+IDD_CONTROL_DIALOG DIALOGEX 0, 0, 300, 360
+// 无边框主窗口：WS_POPUP 去掉标题栏/边框（无边框实现参考 mfcwnd 工程）。
+// 注意：不能写 CAPTION 语句 —— RC 会给带 CAPTION 的对话框自动加 WS_CAPTION；
+// 窗口文字由运行时 SetWindowText 设置，托盘 / FindWindow 仍能按标题找到窗口。
+STYLE DS_SETFONT | WS_POPUP | WS_MINIMIZEBOX | WS_MAXIMIZEBOX
+FONT 9, "Microsoft YaHei UI", 400, 0, 0x86
+BEGIN
+END
+
+// 主程序图标：exe 文件在资源管理器里显示这个（取 ID 最小的 ICON 资源）
+IDR_APPICON ICON "res\\app.ico"

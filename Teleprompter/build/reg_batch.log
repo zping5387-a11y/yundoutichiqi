@@ -1,0 +1,40 @@
+=== border_e2e ===
+bottom edge=(0, 0, 0) inner=(250, 248, 247) -> PASS
+left   edge=(0, 0, 0) inner=(250, 248, 247) -> PASS
+right  edge=(0, 0, 0) inner=(250, 248, 247) -> PASS
+left   edge=(0, 0, 0) inner=(250, 248, 247) -> PASS
+right  edge=(0, 0, 0) inner=(250, 248, 247) -> PASS
+left   edge=(0, 0, 0) inner=(250, 248, 247) -> PASS
+right  edge=(0, 0, 0) inner=(250, 248, 247) -> PASS
+BORDER E2E: PASS
+=== passthru_e2e ===
+默认：浮层中心 WindowFromPoint = 'FolderView'
+取消勾选后：复选框状态=0 EXSTYLE=0x8080088
+关闭穿透后：WindowFromPoint = '芸豆提词'
+滚轮滚动：画面变化 = 是
+按住拖动：画面变化 = 是
+拖动后：复选框状态=0 EXSTYLE=0x8080088
+重新开启穿透：WindowFromPoint = 'FolderView'，复选框状态=1，EXSTYLE=0x80800A8
+RESULT: PASS
+=== cursor_e2e ===
+锁定+不穿透: {'center': 'ARROW', 'left': 'ARROW', 'right': 'ARROW', 'top': 'ARROW', 'bottom': 'ARROW', 'left-top': 'ARROW', 'right-bottom': 'ARROW'}
+   [OK] 全部为普通箭头
+调整位置   : {'center': 'ARROW', 'left': 'SIZEWE', 'right': 'SIZEWE', 'top': 'SIZENS', 'bottom': 'SIZENS', 'left-top': 'SIZENWSE', 'right-bottom': 'SIZENWSE'}
+   [OK] 内部箭头、边缘/四角缩放光标正确
+锁定+穿透  : {'center': 'ARROW', 'left': 'ARROW', 'right': 'ARROW', 'top': 'ARROW', 'bottom': 'ARROW', 'left-top': 'ARROW', 'right-bottom': 'ARROW'} （穿透态，光标来自下层程序，不作断言）
+RESULT: PASS
+=== opacity_fade_e2e ===
+bgAlpha=255: 上缘亮度σ=0.0 中位=192  下缘σ=0.0 中位=192  中部σ=0.0 中位=192
+   [OK] 不透明度 100% 时整块实心
+bgAlpha=70: 上边缘行中位=174  往下 20px 行中位=174  差=0
+   FAIL: 上边缘没有渐隐效果
+RESULT: FAIL
+=== scripts_menu_e2e ===
+列表 rect=(1856,198,2496,566) 高 368（期望约 368）
+点第 2 项后稿件行：b.txt · 61 字
+点第 2 项后稿件行：a.txt · 68 字
+点窗外后稿件行：a.txt · 68 字
+主 INI 的 [file] 段未被改写（保持用户定义）
+sidecar 记录：[file] | lastScript=C:\Users\54881\WorkBuddy\2026-10-20-19-29-44\Teleprompter\build\recent\a.txt | recent0=C:\Users\54881\WorkBuddy\2026-10-20-19-29-44\Teleprompter\build\recent\a.txt
+已还原 INI
+RESULT: PASS
