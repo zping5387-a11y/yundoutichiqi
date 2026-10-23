@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{8C1F5C2E-6B1A-4E9D-9A55-3C0E51B7F2A1}</ProjectGuid>
+    <RootNamespace>Teleprompter</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>TeacherPrompter</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)build\vs\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\vs\$(Configuration)\obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>third_party\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+      <AdditionalDependencies>uafxcw.lib;gdiplus.lib;sapi.lib;comctl32.lib;ole32.lib;oleaut32.lib;shlwapi.lib;uxtheme.lib;msimg32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>uafxcwd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AppSettings.cpp" />
+    <ClCompile Include="src\AudioCapture.cpp" />
+    <ClCompile Include="src\ControlDlg.cpp" />
+    <ClCompile Include="src\RecentListWnd.cpp" />
+    <ClCompile Include="src\OverlayWnd.cpp" />
+    <ClCompile Include="src\ScriptDoc.cpp" />
+    <ClCompile Include="src\ScriptMatcher.cpp" />
+    <ClCompile Include="src\SpeechEngine.cpp" />
+    <ClCompile Include="src\SherpaEngine.cpp" />
+    <ClCompile Include="src\ModelInstaller.cpp" />
+    <ClCompile Include="src\OfficeDoc.cpp" />
+    <ClCompile Include="src\VoiceCommand.cpp" />
+    <ClCompile Include="third_party\miniz\miniz.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="third_party\miniz\miniz_tdef.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="third_party\miniz\miniz_tinfl.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="third_party\miniz\miniz_zip.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="src\TeleprompterApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AppSettings.h" />
+    <ClInclude Include="src\AudioCapture.h" />
+    <ClInclude Include="src\SapiAudioStream.h" />
+    <ClInclude Include="src\ControlDlg.h" />
+    <ClInclude Include="src\RecentListWnd.h" />
+    <ClInclude Include="src\framework.h" />
+    <ClInclude Include="src\OverlayWnd.h" />
+    <ClInclude Include="src\Resource.h" />
+    <ClInclude Include="src\ScriptDoc.h" />
+    <ClInclude Include="src\ScriptMatcher.h" />
+    <ClInclude Include="src\SpeechEngine.h" />
+    <ClInclude Include="src\SherpaEngine.h" />
+    <ClInclude Include="src\OfficeDoc.h" />
+    <ClInclude Include="src\VoiceCommand.h" />
+    <ClInclude Include="src\TeleprompterApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Teleprompter.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
