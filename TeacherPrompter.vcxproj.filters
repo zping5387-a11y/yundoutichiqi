@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AudioCapture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppSettings.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="src\ControlDlg.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="src\RecentListWnd.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="src\OverlayWnd.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="src\ScriptDoc.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="src\ScriptMatcher.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="src\SpeechEngine.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="src\VoiceCommand.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="src\TeleprompterApp.cpp"><Filter>源文件</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AudioCapture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SapiAudioStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AppSettings.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\ControlDlg.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\RecentListWnd.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\framework.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\OverlayWnd.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\Resource.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\ScriptDoc.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\ScriptMatcher.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\SpeechEngine.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\VoiceCommand.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="src\TeleprompterApp.h"><Filter>头文件</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Teleprompter.rc"><Filter>资源文件</Filter></ResourceCompile>
+  </ItemGroup>
+</Project>
